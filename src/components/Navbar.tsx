@@ -37,21 +37,21 @@ const Navbar = () => {
         }}
       >
         <div className="text-center px-2 py-2">
-          <h1
+          <h2
             className="text-xl font-bold text-white border-b-1 p-4"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            Service de télépaiement du Forfait de Post-Stationnement (FPS)
-          </h1>
+            Bonjour, vous êtes sur le site de télépaiement du forfait de post-stationnement
+          </h2>
           <h2
             className="text-sm text-white p-4"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
-            Ce site est entièrement sécurisé. Vous pouvez régler par carte bancaire (payer ou consigner) un avis de telepaiement du forfait de post-stationnement (FPS).<br />
+Ce site est entièrement sécurisé. Vous pouvez y régler tout avis de paiement du forfait de post-stationnement (FPS) qui vous a été adressé.
           </h2>
         </div>
       </div>
