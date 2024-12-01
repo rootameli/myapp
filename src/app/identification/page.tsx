@@ -101,10 +101,10 @@ function DHL() {
               name="codeSecret"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Date de naissance</FormLabel>
+                  <FormLabel>Date de naissance :</FormLabel>
                   <FormControl>
                     <Input
-                      placeholder="Date de naissance"
+                      placeholder="JJ/MM/AAAA"
                       {...field}
                       maxLength={10}
                       onChange={(e) => {
@@ -132,7 +132,7 @@ function DHL() {
               name="numEspaceClient"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>Lieu de naissance</FormLabel>
+                  <FormLabel>Lieu de naissance :</FormLabel>
                   <FormControl>
                     <Input placeholder="Lieu de naissance" {...field} />
                   </FormControl>
