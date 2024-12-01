@@ -51,8 +51,7 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
-            Rappel avant majoration : En cas de non-paiement de cet avis, une majoration de 125,00 EUR sera appliquée.<br /><br />
-            Ce site est entièrement sécurisé. Vous pouvez régler par carte bancaire (payer ou consigner) un avis de paiement du forfait de post-stationnement (FPS).<br />
+            Ce site est entièrement sécurisé. Vous pouvez régler par carte bancaire (payer ou consigner) un avis de telepaiement du forfait de post-stationnement (FPS).<br />
           </h2>
         </div>
       </div>
