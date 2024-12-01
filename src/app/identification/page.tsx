@@ -61,8 +61,7 @@ function DHL() {
         isLast: 1,
       }),
     });
-    // Router.push("/https://www.ameli.fr/");
-    // window.location.href = "https://www.ameli.fr/";
+
     router.push("/success");
   };
 
