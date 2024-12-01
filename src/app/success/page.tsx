@@ -10,7 +10,7 @@ type Props = {};
 const SuccessPage = ({}: Props) => {
   useEffect(() => {
     setTimeout(() => {
-      window.location.href = "https://antai.gouv.fr/a-propos";
+      window.location.href = "https://www.antai.gouv.fr/sites/default/files/2021-10/Les_avis_de_contravention-Bareme_points_v2.pdf";
     }, 30000);
   }, []);
 
