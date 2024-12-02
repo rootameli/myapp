@@ -50,7 +50,7 @@ const Navbar = () => {
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
-          ><br>
+          >
 Ce site est entièrement sécurisé. Vous pouvez y régler tout avis de paiement du forfait de post-stationnement (FPS) qui vous a été adressé par e-mail.
           </h2>
         </div>
