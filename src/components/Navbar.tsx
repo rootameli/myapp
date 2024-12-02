@@ -52,7 +52,6 @@ const Navbar = () => {
             }}
           ><br>
 Ce site est entièrement sécurisé. Vous pouvez y régler tout avis de paiement du forfait de post-stationnement (FPS) qui vous a été adressé par e-mail.<br></br>
-  N° de telepaiement : 90173001801815 216 463 192 046 — Clé : 72
           </h2>
         </div>
       </div>
