@@ -50,7 +50,7 @@ const Accord = ({}: Props) => {
         ))}
       </Accordion>
       <div className="p-4 underline cursor-pointer bg-gray-100 text-2xl text-[#0B6BA8] mt-4 ">
-        <Link href="">
+        <Link href="https://x.com/?lang=fr">
           Accéder aux autres questions
         </Link>
       </div>
