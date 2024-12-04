@@ -71,17 +71,17 @@ const Footer = ({}: Props) => {
       </div>
       <div className="flex p-4 items-center justify-around bg-[#363C48]">
         <a
-          href=""
+          href="https://x.com/?lang=fr"
           rel="noopener"
           target="_blank"
           className="underline link-external"
-          title="service-public.fr - Nouvelle fenêtre"
+          title="Nouvelle fenêtre"
         >
           Service-public.fr
         </a>
         <Separator orientation="vertical" />
         <a
-          href=""
+          href="https://x.com/?lang=fr"
           rel="noopener"
           target="_blank"
           className="link-external underline"
@@ -97,7 +97,7 @@ const Footer = ({}: Props) => {
           <a
             id="mention-legales"
             className="xt underline"
-            href=""
+            href="https://x.com/?lang=fr"
           >
             Mentions légales
           </a>
