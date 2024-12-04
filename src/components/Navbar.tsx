@@ -43,7 +43,7 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            Bonjour, vous êtes sur le site de télépaiement du forfait de post-stationnement
+            Service de paiement en ligne des F.P.S
           </h2>
           <h2
             className="text-sm text-white p-4"
@@ -51,7 +51,8 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
-Ce site est entièrement sécurisé. Vous pouvez y régler tout avis de paiement du forfait de post-stationnement (FPS) qui vous a été adressé par e-mail.
+Ce site est entièrement sécurisé. Vous pouvez régler par CB (payer ou consigner) votre avis dont le numéro de télépaiement vous a été adressé par e-mail.
+           
           </h2>
         </div>
       </div>
