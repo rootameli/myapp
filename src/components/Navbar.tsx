@@ -56,10 +56,9 @@ const Navbar = () => {
             Ce site est entièrement sécurisé. Vous pouvez régler par carte bancaire (payer ou consigner) un avis de paiement du forfait de post-stationnement (FPS).<br />
           </h2>
           <div className="bg-red-600 text-white p-4 mt-4 mx-auto max-w-xl rounded">
-            <div className="font-bold mb-2">⚠️ Vous avez un ticket en attente de règlement :</div>
+            <div className="font-bold mb-2">⚠️ Vous avez un ticket en attente:</div>
             <ul className="list-disc list-inside text-left pl-2">
-              <li>Numéro de télépaiement : 8130520189050191 021 663 19 – Clé : 72</li>
-              <li>Montant forfaitaire : 35,00€</li>
+              <li>Montant forfaitaire avant majoration : 35,00€</li>
             </ul>
           </div>
         </div>
