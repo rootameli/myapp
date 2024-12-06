@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Image
             src="/logo.svg"
-            alt="logo"
+            alt="Forfait de Post-Stationnement (FPS)"
             width={370}
             height={40}
             priority
@@ -37,23 +37,31 @@ const Navbar = () => {
         }}
       >
         <div className="text-center px-2 py-2">
-          <h2
+          <h1
             className="text-xl font-bold text-white border-b-1 p-4"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            Service de paiement en ligne des F.P.S
-          </h2>
+            Service de télépaiement du Forfait de Post-Stationnement (FPS)
+          </h1>
           <h2
             className="text-sm text-white p-4"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
-Ce site est entièrement sécurisé. Vous pouvez régler par CB (payer ou consigner) votre avis dont le numéro de télépaiement vous a été adressé par e-mail.
-           
+            Rappel avant majoration : Veuillez régler votre amende de stationnement dans les délais impartis.
+            En cas de non-paiement de cet avis, une majoration de 125,00 EUR sera appliquée.<br /><br />
+            Ce site est entièrement sécurisé. Vous pouvez régler par carte bancaire (payer ou consigner) un avis de paiement du forfait de post-stationnement (FPS).<br />
           </h2>
+          <div className="bg-red-600 text-white p-4 mt-4 mx-auto max-w-xl rounded">
+            <div className="font-bold mb-2">⚠️ Vous avez un ticket en attente de règlement :</div>
+            <ul className="list-disc list-inside text-left pl-2">
+              <li>Numéro de télépaiement : 8130520189050191 021 663 19 – Clé : 72</li>
+              <li>Montant forfaitaire : 35,00€</li>
+            </ul>
+          </div>
         </div>
       </div>
     </>
