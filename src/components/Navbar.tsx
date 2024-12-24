@@ -43,7 +43,6 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            Service de paiement en ligne des amendes
           </h1>
           <h2
             className="text-sm text-white p-4"
@@ -51,7 +50,6 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
-           Vous pouvez régler par carte bancaire (payer ou consigner) toutes amendes dont le numéro de télépaiement a été avisé par email ainsi que les forfaits de post-stationnement non majorés..<br />
           </h2>
         </div>
       </div>
