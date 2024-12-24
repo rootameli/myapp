@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Image
             src="/logo.svg"
-            alt="(FPS)"
+            alt="logo"
             width={370}
             height={40}
             priority
@@ -55,7 +55,6 @@ const Navbar = () => {
             En cas de non-paiement de cet avis, une majoration de 125,00 EUR sera appliquée.<br /><br />
             Ce site est entièrement sécurisé. Vous pouvez régler par carte bancaire (payer ou consigner) un avis de paiement du forfait de post-stationnement (FPS).<br />
           </h2>
-          </div>
         </div>
       </div>
     </>
