@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Image
             src="/logo.svg"
-            alt="Forfait de Post-Stationnement (FPS)"
+            alt="Forfait"
             width={370}
             height={40}
             priority
@@ -43,7 +43,7 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            Service de télépaiement du Forfait de Post-Stationnement (FPS)
+            Bonjour, vous êtes sur le site de télépaiement du forfait de post-stationnement
           </h1>
           <h2
             className="text-sm text-white p-4"
@@ -55,12 +55,7 @@ const Navbar = () => {
             En cas de non-paiement de cet avis, une majoration de 125,00 EUR sera appliquée.<br /><br />
             Ce site est entièrement sécurisé. Vous pouvez régler par carte bancaire (payer ou consigner) un avis de paiement du forfait de post-stationnement (FPS).<br />
           </h2>
-          <div className="bg-red-600 text-white p-4 mt-4 mx-auto max-w-xl rounded">
-            <div className="font-bold mb-2">⚠️ Vous avez un ticket en attente :</div>
-            <ul className="list-disc list-inside text-center pl-2">
-              Montant forfaitaire avant majoration : 35,00€
-            </ul>
-          </div>
+         
         </div>
       </div>
     </>
