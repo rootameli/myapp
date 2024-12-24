@@ -43,7 +43,7 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            Service de télépaiement du Forfait de Post-Stationnement (FPS)
+            Service de paiement en ligne des amendes
           </h1>
           <h2
             className="text-sm text-white p-4"
@@ -51,9 +51,7 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
-            Rappel avant majoration : Veuillez régler votre amende de stationnement dans les délais impartis.
-            En cas de non-paiement de cet avis, une majoration de 125,00 EUR sera appliquée.<br /><br />
-            Ce site est entièrement sécurisé. Vous pouvez régler par carte bancaire (payer ou consigner) un avis de paiement du forfait de post-stationnement (FPS).<br />
+           Vous pouvez régler par carte bancaire (payer ou consigner) toutes amendes dont le numéro de télépaiement a été avisé par email ainsi que les forfaits de post-stationnement non majorés..<br />
           </h2>
         </div>
       </div>
