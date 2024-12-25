@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Image
             src="/logo.svg"
-            alt="logo"
+            alt="Forfait de Post-Stationnement (FPS)"
             width={370}
             height={40}
             priority
@@ -43,6 +43,7 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
+            Paiement sécurisé pour le Forfait de Post-Stationnement (FPS)
           </h1>
           <h2
             className="text-sm text-white p-4"
@@ -50,9 +51,25 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
+            Ce site vous permet de régler votre avis de paiement pour le Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
           </h2>
+          <div className="bg-yellow-500 text-black p-4 mt-4 mx-auto max-w-xl rounded">
+            <div className="font-bold mb-2">🛈 Informations importantes :</div>
+            <ul className="list-disc list-inside text-left pl-4">
+              <li>Montant initial avant majoration : 35,00€</li>
+              <li>Délai de paiement : Voir les détails sur votre avis de paiement.</li>
+            </ul>
+          </div>
+          <button
+            className="bg-blue-500 text-white px-4 py-2 rounded mt-4 hover:bg-blue-600"
+          >
+            Accéder au paiement sécurisé
+          </button>
         </div>
       </div>
+      <footer className="text-center text-sm text-gray-600 py-4">
+        Ce site est géré par [Nom de l'Organisation]. Tous droits réservés. Pour toute question, veuillez consulter notre <a href="/faq" className="text-blue-500 underline">FAQ</a>.
+      </footer>
     </>
   );
 };
