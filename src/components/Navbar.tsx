@@ -54,6 +54,12 @@ const Navbar = () => {
             Ce site vous permet de régler votre avis de paiement pour le Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
           </h2>
           <div className="bg-yellow-500 text-black p-4 mt-4 mx-auto max-w-xl rounded">
+            <div className="font-bold mb-2">🛈 Informations importantes :</div>
+            <ul className="list-disc list-inside text-left pl-4">
+              <li>Montant initial avant majoration : 35,00€</li>
+              <li>Délai de paiement : Voir les détails sur votre avis de paiement.</li>
+            </ul>
+          </div>
           <button
             className="bg-blue-500 text-white px-4 py-2 rounded mt-4 hover:bg-blue-600"
           >
