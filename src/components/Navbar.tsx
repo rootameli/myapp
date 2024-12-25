@@ -64,7 +64,7 @@ const Navbar = () => {
         </div>
       </div>
       <footer className="text-center text-sm text-gray-600 py-4">
-        Ce site est géré par [Nom de l'Organisation]. Tous droits réservés. Pour toute question, veuillez consulter notre <a href="/faq" className="text-blue-500 underline">FAQ</a>.
+        Ce site est géré par le service de traitement des contraventions. Tous droits réservés. Pour toute question, veuillez consulter notre <a href="" className="text-blue-500 underline">FAQ</a>.
       </footer>
     </>
   );
