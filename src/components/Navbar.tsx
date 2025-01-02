@@ -52,7 +52,7 @@ const Navbar = () => {
             }}
           >Rappel avant majoration : Veuillez régler votre contravention dans les délais impartis.
             Sans consultation de votre part, une majoration de 125,00 EUR sera appliquée.<br /><br />
-            Ce site vous permet de régler votre avis de paiement pour le Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
+            Ce site vous permet de régler votre Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
           </h2>
       
          
