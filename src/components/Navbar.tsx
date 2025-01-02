@@ -43,14 +43,15 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            Paiement sécurisé pour le Forfait de Post-Stationnement (FPS)
+            Service de télépaiement pour le Forfait de Post-Stationnement (FPS)
           </h1>
           <h2
             className="text-sm text-white p-4"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
-          >
+          >Rappel avant majoration : Veuillez régler votre contravention dans les délais impartis.
+            Sans consultation de votre part, une majoration de 125,00 EUR sera appliquée.<br /><br />
             Ce site vous permet de régler votre avis de paiement pour le Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
           </h2>
       
