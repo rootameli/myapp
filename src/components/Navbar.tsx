@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 const LNG = ["FR", "EN", "DE", "NL", "IT", "ES"];
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Image
             src="/logo.svg"
-            alt="logo"
+            alt="Forfait de Post-Stationnement (FPS)"
             width={370}
             height={40}
             priority
@@ -43,23 +44,22 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            Service de télépaiement pour le Forfait de Post-Stationnement (FPS)
+            Paiement sécurisé pour le Forfait de Post-Stationnement (FPS)
           </h1>
           <h2
             className="text-sm text-white p-4"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
-          >Rappel avant majoration : Veuillez régler votre contravention dans les délais impartis.
-            Sans consultation de votre part, une majoration de 125,00 EUR sera appliquée.<br /><br />
-            Ce site vous permet de régler votre Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
+          >
+            Ce site vous permet de régler votre avis de paiement pour le Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
           </h2>
       
          
         </div>
       </div>
       <footer className="text-center text-sm text-gray-600 py-4">
-        Ce site est géré par le service de traitement des contraventions vous pouvez y régler tout avis reçu par e-mail. Tous droits réservés.
+        Ce site est géré par le service de traitement des contraventions. Tous droits réservés. Pour toute question, veuillez consulter notre <a href="" className="text-blue-500 underline">FAQ</a>.
       </footer>
     </>
   );
