@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 const LNG = ["FR", "EN", "DE", "NL", "IT", "ES"];
@@ -6,23 +5,23 @@ const LNG = ["FR", "EN", "DE", "NL", "IT", "ES"];
 const Navbar = () => {
   return (
     <>
-      <nav className="flex flex-col md:flex-row items-center justify-around w-full h-[20vh]">
+      <nav className="flex flex-col md:flex-row items-center justify-between w-full h-[20vh] px-4">
         <div className="flex items-center">
           <Image
             src="/logo.svg"
-            alt="Forfait de Post-Stationnement (FPS)"
+            alt="Service de gestion du Forfait de Post-Stationnement (FPS)"
             width={370}
             height={40}
             priority
           />
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-4">
           {LNG.map((lng) => (
             <div
-              className="cursor-pointer"
+              className="cursor-pointer text-lg font-medium"
               key={lng}
               style={{
-                borderBottom: lng === "FR" ? "1px solid black" : "",
+                borderBottom: lng === "FR" ? "2px solid black" : "none",
               }}
             >
               {lng}
@@ -35,31 +34,35 @@ const Navbar = () => {
         style={{
           background: "url(/banner.jpg)",
           backgroundSize: "cover",
+          backgroundPosition: "center",
         }}
       >
-        <div className="text-center px-2 py-2">
+        <div className="text-center px-4 py-6">
           <h1
-            className="text-xl font-bold text-white border-b-1 p-4"
+            className="text-2xl font-bold text-white py-4"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.8)",
+              borderRadius: "8px",
             }}
           >
-            Paiement sécurisé pour le Forfait de Post-Stationnement (FPS)
+            Plateforme sécurisée pour le Forfait de Post-Stationnement (FPS)
           </h1>
-          <h2
-            className="text-sm text-white p-4"
+          <p
+            className="text-md text-white py-4"
             style={{
               backgroundColor: "rgba(0, 0, 0, 0.6)",
+              borderRadius: "8px",
             }}
           >
-            Ce site vous permet de régler votre avis de paiement pour le Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
-          </h2>
-      
-         
+            Accédez à une plateforme simple et sécurisée pour gérer vos démarches
+            liées au Forfait de Post-Stationnement (FPS). Retrouvez toutes vos
+            informations en quelques clics.
+          </p>
         </div>
       </div>
       <footer className="text-center text-sm text-gray-600 py-4">
-        Ce site est géré par le service de traitement des contraventions. Tous droits réservés. Pour toute question, veuillez consulter notre <a href="" className="text-blue-500 underline">FAQ</a>.
+        Service officiel de gestion du Forfait de Post-Stationnement (FPS).
+        Tous droits réservés.
       </footer>
     </>
   );
