@@ -6,73 +6,105 @@ const Navbar = () => {
   return (
     <>
       {/* Barre de navigation */}
-      <nav className="flex flex-col md:flex-row items-center justify-between w-full h-[20vh] px-6 bg-gray-100 shadow-md">
-        <div className="flex items-center">
-          <Image
-            src="/logo.svg"
-            alt="Service FPS"
-            width={200}
-            height={50}
-            priority
-          />
-        </div>
-        <div className="flex items-center gap-6">
-          {LNG.map((lng) => (
-            <div
-              className="cursor-pointer text-base font-medium hover:underline"
-              key={lng}
-              style={{
-                borderBottom: lng === "FR" ? "2px solid #000" : "none",
-              }}
-            >
-              {lng}
-            </div>
-          ))}
+      <nav className="bg-gray-900 text-white w-full">
+        <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
+          {/* Logo */}
+          <div className="flex items-center">
+            <Image
+              src="/logo.svg"
+              alt="Plateforme officielle"
+              width={150}
+              height={50}
+              priority
+            />
+          </div>
+          {/* Langues */}
+          <div className="flex gap-4 mt-4 md:mt-0">
+            {LNG.map((lng) => (
+              <div
+                key={lng}
+                className="cursor-pointer hover:underline hover:text-blue-400 transition duration-300"
+                style={{
+                  borderBottom: lng === "FR" ? "2px solid white" : "none",
+                }}
+              >
+                {lng}
+              </div>
+            ))}
+          </div>
         </div>
       </nav>
 
       {/* Bannière */}
       <div
-        className="flex flex-col items-center justify-center w-full min-h-[30vh] text-center bg-cover bg-center"
+        className="relative flex items-center justify-center w-full h-[40vh] bg-cover bg-center"
         style={{
           backgroundImage: "url('/banner.jpg')",
         }}
       >
-        <div className="bg-black bg-opacity-70 text-white rounded-lg p-6">
-          <h1 className="text-2xl font-bold">
-            Bienvenue sur la plateforme officielle
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="relative z-10 text-center text-white p-6">
+          <h1 className="text-3xl font-bold mb-4">
+            Accédez à des services fiables et sécurisés
           </h1>
-          <p className="mt-4 text-lg">
-            Simplifiez la gestion de vos démarches liées au Forfait de
-            Post-Stationnement (FPS) grâce à notre plateforme en ligne.
+          <p className="text-lg">
+            Notre plateforme simplifie vos démarches et garantit votre
+            tranquillité d'esprit grâce à des solutions innovantes.
           </p>
         </div>
       </div>
 
-      {/* Informations complémentaires */}
-      <section className="px-6 py-8 bg-gray-50">
-        <h2 className="text-xl font-semibold text-gray-800">
-          À propos de ce service
-        </h2>
-        <p className="mt-4 text-gray-700">
-          Ce site est dédié à la gestion des informations concernant le Forfait
-          de Post-Stationnement (FPS). Vous pouvez consulter vos avis et
-          accéder à des informations essentielles pour vos démarches. Notre
-          plateforme sécurisée vous garantit une navigation en toute
-          tranquillité.
-        </p>
+      {/* Section d'informations */}
+      <section className="bg-white py-10 px-4">
+        <div className="container mx-auto text-center md:text-left">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-6">
+            Pourquoi choisir notre plateforme ?
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Avantage 1 */}
+            <div className="p-4 border rounded-lg shadow-md hover:shadow-lg transition duration-300">
+              <h3 className="text-xl font-bold text-gray-700 mb-4">
+                Sécurité avant tout
+              </h3>
+              <p className="text-gray-600">
+                Nous utilisons les normes les plus strictes pour protéger vos
+                données et garantir une expérience en toute sérénité.
+              </p>
+            </div>
+            {/* Avantage 2 */}
+            <div className="p-4 border rounded-lg shadow-md hover:shadow-lg transition duration-300">
+              <h3 className="text-xl font-bold text-gray-700 mb-4">
+                Facilité d'utilisation
+              </h3>
+              <p className="text-gray-600">
+                Une interface intuitive et accessible à tous, que vous soyez
+                débutant ou expérimenté.
+              </p>
+            </div>
+            {/* Avantage 3 */}
+            <div className="p-4 border rounded-lg shadow-md hover:shadow-lg transition duration-300">
+              <h3 className="text-xl font-bold text-gray-700 mb-4">
+                Support réactif
+              </h3>
+              <p className="text-gray-600">
+                Une équipe dédiée prête à répondre à vos questions et à
+                résoudre vos problèmes rapidement.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Pied de page */}
-      <footer className="text-center text-sm text-gray-600 py-4 bg-gray-200">
-        <p>
-          Service officiel du Forfait de Post-Stationnement (FPS). Tous droits
-          réservés.
-        </p>
-        <p className="mt-2">
-          Ce site respecte les normes de sécurité et de confidentialité en
-          vigueur.
-        </p>
+      <footer className="bg-gray-900 text-white py-6">
+        <div className="container mx-auto text-center">
+          <p className="text-sm">
+            © 2025 Plateforme officielle. Tous droits réservés.
+          </p>
+          <p className="text-sm mt-2">
+            Conçu pour vous offrir une expérience simple, rapide et sécurisée.
+          </p>
+        </div>
       </footer>
     </>
   );
