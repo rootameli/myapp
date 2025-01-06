@@ -60,8 +60,7 @@ const Navbar = () => {
             Ce site est géré par le service de traitement des contraventions. Tous droits réservés.
           </p>
           <p className="text-sm mt-2">
-            Conçu pour vous offrir une expérience simple, rapide et sécurisée.
-          </p>
+Ce site respecte les normes de sécurité et de confidentialité en vigueur.          </p>
         </div>
       </footer>
     </>
