@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <>
       {/* Barre de navigation */}
-      <nav className="bg-gray-900 text-white w-full">
+      <nav className="bg-white shadow-md w-full">
         <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
@@ -19,13 +19,13 @@ const Navbar = () => {
             />
           </div>
           {/* Langues */}
-          <div className="flex gap-4 mt-4 md:mt-0">
+          <div className="flex gap-4 mt-4 md:mt-0 text-gray-800">
             {LNG.map((lng) => (
               <div
                 key={lng}
-                className="cursor-pointer hover:underline hover:text-blue-400 transition duration-300"
+                className="cursor-pointer hover:underline hover:text-blue-600 transition duration-300"
                 style={{
-                  borderBottom: lng === "FR" ? "2px solid white" : "none",
+                  borderBottom: lng === "FR" ? "2px solid black" : "none",
                 }}
               >
                 {lng}
