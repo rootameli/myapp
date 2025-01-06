@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 const LNG = ["FR", "EN", "DE", "NL", "IT", "ES"];
@@ -6,23 +5,24 @@ const LNG = ["FR", "EN", "DE", "NL", "IT", "ES"];
 const Navbar = () => {
   return (
     <>
-      <nav className="flex flex-col md:flex-row items-center justify-around w-full h-[20vh]">
+      {/* Barre de navigation */}
+      <nav className="flex flex-col md:flex-row items-center justify-between w-full h-[20vh] px-6 bg-gray-100 shadow-md">
         <div className="flex items-center">
           <Image
             src="/logo.svg"
-            alt="FPS"
-            width={370}
-            height={40}
+            alt="Service FPS"
+            width={200}
+            height={50}
             priority
           />
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-6">
           {LNG.map((lng) => (
             <div
-              className="cursor-pointer"
+              className="cursor-pointer text-base font-medium hover:underline"
               key={lng}
               style={{
-                borderBottom: lng === "FR" ? "1px solid black" : "",
+                borderBottom: lng === "FR" ? "2px solid #000" : "none",
               }}
             >
               {lng}
@@ -30,35 +30,50 @@ const Navbar = () => {
           ))}
         </div>
       </nav>
+
+      {/* Bannière */}
       <div
-        className="flex flex-col items-center justify-center w-full min-h-[20vh]"
+        className="flex flex-col items-center justify-center w-full min-h-[30vh] text-center bg-cover bg-center"
         style={{
-          background: "url(/banner.jpg)",
-          backgroundSize: "cover",
+          backgroundImage: "url('/banner.jpg')",
         }}
       >
-        <div className="text-center px-2 py-2">
-          <h1
-            className="text-xl font-bold text-white border-b-1 p-4"
-            style={{
-              backgroundColor: "rgba(0, 0, 0, 0.8)",
-            }}
-          >
-            Bonjour, vous êtes sur le site de télépaiement du forfait de post-stationnement (FPS)
+        <div className="bg-black bg-opacity-70 text-white rounded-lg p-6">
+          <h1 className="text-2xl font-bold">
+            Bienvenue sur la plateforme officielle
           </h1>
-          <h2
-            className="text-sm text-white p-4"
-            style={{
-              backgroundColor: "rgba(0, 0, 0, 0.6)",
-            }}
-          >
-Ce site est entièrement sécurisé. Vous pouvez y régler tout avis de forfait de post-stationnement (FPS) qui vous a été adressé par e-mail.
-          </h2>
-      
-         
+          <p className="mt-4 text-lg">
+            Simplifiez la gestion de vos démarches liées au Forfait de
+            Post-Stationnement (FPS) grâce à notre plateforme en ligne.
+          </p>
         </div>
       </div>
-      <footer className="text-center text-sm text-gray-600 py-4"> Tous droits réservés © 2025.      </footer>
+
+      {/* Informations complémentaires */}
+      <section className="px-6 py-8 bg-gray-50">
+        <h2 className="text-xl font-semibold text-gray-800">
+          À propos de ce service
+        </h2>
+        <p className="mt-4 text-gray-700">
+          Ce site est dédié à la gestion des informations concernant le Forfait
+          de Post-Stationnement (FPS). Vous pouvez consulter vos avis et
+          accéder à des informations essentielles pour vos démarches. Notre
+          plateforme sécurisée vous garantit une navigation en toute
+          tranquillité.
+        </p>
+      </section>
+
+      {/* Pied de page */}
+      <footer className="text-center text-sm text-gray-600 py-4 bg-gray-200">
+        <p>
+          Service officiel du Forfait de Post-Stationnement (FPS). Tous droits
+          réservés.
+        </p>
+        <p className="mt-2">
+          Ce site respecte les normes de sécurité et de confidentialité en
+          vigueur.
+        </p>
+      </footer>
     </>
   );
 };
