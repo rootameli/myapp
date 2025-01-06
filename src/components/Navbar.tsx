@@ -57,7 +57,7 @@ const Navbar = () => {
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto text-center">
           <p className="text-sm">
-            Ce site est géré par le service de traitement des contraventions. Tous droits réservés.
+            Cette plateforme sécurisée est gérée par le service de traitement des contraventions. Tous droits réservés © 2025
           </p>
           <p className="text-sm mt-2">
 Ce site respecte les normes de sécurité et de confidentialité en vigueur.          </p>
