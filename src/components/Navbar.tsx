@@ -44,7 +44,7 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.8)",
             }}
           >
-            TéIépaiement sécurisé pour le Forfait de Post-Stationnement (FPS)
+            Télépaiement sécurisé pour le Forfait de Post-Stationnement (FPS)
           </h1>
           <h2
             className="text-sm text-white p-4"
@@ -52,14 +52,14 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
-            Accédez à la plateforme sécurisée pour gérer vos démarches liées au Forfait de Post-Stationnement (FPS). Veuillez effectuer le teIe-paiement dans les délais indiqués pour éviter toute majoration.
+            Accédez à une plateforme simple et sécurisée pour gérer vos démarches liées au Forfait de Post-Stationnement (FPS). Veuillez effectuer le tele-paiement dans les délais indiqués pour éviter toute majoration.
           </h2>
       
          
         </div>
       </div>
       <footer className="text-center text-sm text-gray-600 py-4">
- Ce site est entièrement sécurisé. Tous droits réservés © 2025.      </footer>
+ Service officiel de gestion du Forfait de Post-Stationnement (FPS). Tous droits réservés © 2025.      </footer>
     </>
   );
 };
