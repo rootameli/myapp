@@ -52,7 +52,7 @@ const Navbar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.6)",
             }}
           >
-        Vous pouvez régler votre FPS dont le numéro de télépaiement est présent sur l'email ainsi que les forfaits de post-stationnement non majorés de 35,00EUR.    
+       Ce site est entièrement sécurisé. Vous pouvez régler votre forfait de post-stationnement (FPS) dont le numéro de télépaiement est présent sur l'email.    
           </h2>
       
          
