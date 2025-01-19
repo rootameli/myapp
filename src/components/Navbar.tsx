@@ -13,8 +13,8 @@ const Navbar = () => {
             <Image
               src="/logo.svg"
               alt="logosvgFPS"
-              width={180}
-              height={60}
+              width={220}
+              height={75}
               priority
             />
           </div>
