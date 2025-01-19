@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Image
               src="/logo.svg"
-              alt="logoFPS"
+              alt="Forfait de Post-Stationnement (FPS)"
               width={150}
               height={50}
               priority
@@ -54,8 +54,8 @@ const Navbar = () => {
             majoration.
           </p>
 
-          {/* Alerte fixe */}
-          <div className="mt-6 bg-red-600 text-white rounded-lg p-4 text-left shadow-lg max-w-lg mx-auto">
+          {/* Alerte centrée */}
+          <div className="mt-6 bg-red-600 text-white rounded-lg p-6 text-center shadow-lg max-w-lg mx-auto flex flex-col items-center">
             <h2 className="text-lg font-bold">⚠️ Ticket en attente de règlement</h2>
             <p className="mt-2">
               <strong>Montant :</strong> 35,00 euros
