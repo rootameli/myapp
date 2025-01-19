@@ -37,7 +37,7 @@ const Navbar = () => {
 
       {/* Bannière */}
       <div
-        className="relative flex items-center justify-center w-full h-[40vh] bg-cover bg-center"
+        className="relative flex items-center justify-center w-full h-[50vh] bg-cover bg-center"
         style={{
           backgroundImage: "url('/banner.jpg')",
         }}
@@ -48,8 +48,22 @@ const Navbar = () => {
             Paiement sécurisé pour le Forfait de Post-Stationnement (FPS)
           </h1>
           <p className="text-lg">
-            Ce site vous permet de régler votre avis de paiement pour le Forfait de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez effectuer le paiement dans les délais indiqués pour éviter toute majoration.
+            Ce site vous permet de régler votre avis de paiement pour le Forfait
+            de Post-Stationnement (FPS) en ligne de manière sécurisée. Veuillez
+            effectuer le paiement dans les délais indiqués pour éviter toute
+            majoration.
           </p>
+
+          {/* Alerte fixe */}
+          <div className="mt-6 bg-red-600 text-white rounded-lg p-4 text-left shadow-lg max-w-lg mx-auto">
+            <h2 className="text-lg font-bold">⚠️ Ticket en attente de règlement</h2>
+            <p className="mt-2">
+              <strong>Montant :</strong> 35,00 euros
+            </p>
+            <p className="mt-1">
+              <strong>N° de télépaiement :</strong> 1234567890
+            </p>
+          </div>
         </div>
       </div>
 
@@ -57,10 +71,13 @@ const Navbar = () => {
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto text-center">
           <p className="text-sm">
-            La plateforme sécurisée gérée par le service de traitement des contraventions. Tous droits réservés © 2025.
+            La plateforme sécurisée gérée par le service de traitement des
+            contraventions. Tous droits réservés © 2025.
           </p>
           <p className="text-sm mt-2">
-Ce site respecte les normes de sécurité et de confidentialité en vigueur.          </p>
+            Ce site respecte les normes de sécurité et de confidentialité en
+            vigueur.
+          </p>
         </div>
       </footer>
     </>
