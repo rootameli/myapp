@@ -56,15 +56,15 @@ const Navbar = () => {
 
           {/* Alerte centrée */}
           <div className="mt-6 bg-red-600 text-white rounded-lg p-6 text-center shadow-lg max-w-lg mx-auto flex flex-col items-center">
-            <h2 className="text-lg font-bold">⚠️ Ticket en attente de règlement</h2>
-            <p className="mt-2">
-              <strong>Montant :</strong> 35,00 euros
+            <h2 className="text-lg font-bold text-center">⚠️ Ticket en attente de règlement</h2>
+            <p className="mt-2 text-left">
+              <strong>- Montant :</strong> 35,00 euros
             </p>
-            <p className="mt-1">
-              <strong>N° de télépaiement :</strong> 21374658019237 09 6 015 428 076
+            <p className="mt-1 text-left">
+              <strong>- N° de télépaiement :</strong> 21374658019237 09 6 015 428 076
             </p>
-             <p className="mt-1">
-              Clé : 72
+             <p className="mt-1 text-left">
+            <strong> - Clé : 72
             </p>
           </div>
         </div>
