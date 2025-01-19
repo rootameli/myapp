@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Image
               src="/logo.svg"
-              alt="Forfait de Post-Stationnement (FPS)"
+              alt="logoFPS"
               width={150}
               height={50}
               priority
