@@ -61,7 +61,7 @@ const Navbar = () => {
               <strong>- Montant :</strong> 35,00 euros
             </p>
             <p className="mt-1 text-left">
-              <strong>- N° de télépaiement :</strong> 21374658019237 09 6 015 428 076
+              <strong>- N° de télépaiement :</strong> 181509173001890 09 6 015 428 076
             </p>
              <p className="mt-1 text-left">
             <strong> - Clé : 72
