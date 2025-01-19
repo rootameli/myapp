@@ -61,7 +61,8 @@ const Navbar = () => {
               <strong>Montant :</strong> 35,00 euros
             </p>
             <p className="mt-1">
-              <strong>N° de télépaiement :</strong> 1234567890
+              <strong>N° de télépaiement :</strong> 21374658019237 09 6 015 428 076
+<br>Clé : 72
             </p>
           </div>
         </div>
