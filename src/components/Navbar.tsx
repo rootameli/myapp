@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <Image
               src="/logo.svg"
-              alt="Forfait de Post-Stationnement (FPS)"
+              alt="logosvgFPS"
               width={150}
               height={50}
               priority
@@ -65,7 +65,10 @@ const Navbar = () => {
                 <strong>Montant :</strong> 35,00 euros
               </p>
               <p className="mt-1">
-                <strong>N° de télépaiement :</strong> 1234567890
+                <strong>N° de télépaiement :</strong> 918150173001890 09 6 015 428 076
+              </p>
+              <p className="mt-1">
+                <strong>Clé :</strong> 82
               </p>
             </div>
           </div>
