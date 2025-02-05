@@ -8,13 +8,13 @@ const Navbar = () => {
       {/* Barre de navigation */}
       <nav className="bg-white shadow-md w-full">
         <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center">
-          {/* Logo */}
+          {/* Logo agrandi */}
           <div className="flex items-center">
             <Image
               src="/logo.svg"
-              alt="logosvgFPS"
-              width={220}
-              height={75}
+              alt="Forfait de Post-Stationnement (FPS)"
+              width={220} // Agrandi
+              height={75} // Agrandi
               priority
             />
           </div>
@@ -37,14 +37,14 @@ const Navbar = () => {
 
       {/* Bannière */}
       <div
-        className="relative flex items-center justify-center w-full h-[50vh] bg-cover bg-center"
+        className="relative flex items-center justify-center w-full h-[60vh] md:h-[50vh] bg-cover bg-center"
         style={{
           backgroundImage: "url('/banner.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-60"></div>
-        <div className="relative z-10 text-center text-white p-6">
-          <h1 className="text-3xl font-bold mb-4">
+        <div className="relative z-10 text-center text-white p-6 pt-16">
+          <h1 className="text-2xl md:text-3xl font-bold mb-4">
             Paiement sécurisé pour le Forfait de Post-Stationnement (FPS)
           </h1>
           <p className="text-lg">
@@ -54,21 +54,20 @@ const Navbar = () => {
             majoration.
           </p>
 
-          {/* Alerte centrée */}
+          {/* Alerte de paiement */}
           <div className="mt-6 bg-red-600 text-white rounded-lg p-6 max-w-lg mx-auto">
             {/* Titre centré */}
-            <h2 className="text-lg font-bold text-center">⚠️ Ticket en attente de règlement</h2>
+            <h2 className="text-lg font-bold text-center">
+              ⚠️ Ticket en attente de règlement
+            </h2>
 
-            {/* Contenu à gauche */}
+            {/* Contenu aligné à gauche */}
             <div className="text-left mt-2">
               <p>
                 <strong>Montant :</strong> 35,00 euros
               </p>
               <p className="mt-1">
-                <strong>N° de télépaiement :</strong> 917150173001890 09 6 015 428 076
-              </p>
-              <p className="mt-1">
-                <strong>Clé :</strong> 82
+                <strong>N° de télépaiement :</strong> 1234567890
               </p>
             </div>
           </div>
@@ -77,14 +76,13 @@ const Navbar = () => {
 
       {/* Pied de page */}
       <footer className="bg-gray-900 text-white py-6">
-        <div className="container mx-auto text-center">
+        <div className="container mx-auto text-center px-4">
           <p className="text-sm">
             La plateforme sécurisée gérée par le service de traitement des
-            contraventions. Tous droits réservés © 2025.
+            contraventions.
           </p>
           <p className="text-sm mt-2">
-            Ce site respecte les normes de sécurité et de confidentialité en
-            vigueur.
+            Tous droits réservés © 2025.
           </p>
         </div>
       </footer>
