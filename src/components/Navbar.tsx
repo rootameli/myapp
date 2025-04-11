@@ -81,7 +81,7 @@ const Navbar = () => {
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto text-center px-4">
           <p className="text-sm">
-            La plateforme sécurisée gérée par le service de traitement des
+            La plateforme officielle sécurisée gérée par le service de traitement des
             contraventions.
           </p>
           <p className="text-sm mt-2">
