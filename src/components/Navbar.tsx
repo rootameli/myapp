@@ -81,8 +81,7 @@ const Navbar = () => {
       <footer className="bg-gray-900 text-white py-6">
         <div className="container mx-auto text-center px-4">
           <p className="text-sm">
-            La plateforme officielle sécurisée gérée par le service de traitement des
-            contraventions.
+            Plateforme officielle sécurisée pour le traitement des contraventions
           </p>
           <p className="text-sm mt-2">
             Tous droits réservés © 2025.
